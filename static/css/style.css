@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #d5d273, #bcff88);
+}
+
+.app-header {
+    position: fixed;
+    width: 100%;
+    min-width: 800px;
+    display: block;
+    left: 0px;
+    top: 0px;
+    height: 32px;
+    padding: 6px 20px;
+    margin: 0px auto;
+    background-color: rgba(255,255,255,.9);
+    z-index: 999;
+}
+
+.header-item {
+    position: relative;
+    display: block;
+    border: 1px;
+    background-color: #FFA500;
+    width: 100px;
+    height: 44px;
+    border-radius: 5px;
+    top: -6px;
+    font-weight: bold;
+    color: #2f2f2f;
+}
+
+.header-item:hover {
+    background-color: #BF6500;
+    color: #cfcfcf;
+}
+
+.app-body {
+    position: relative;
+    display: block;
+    width: 800px;
+    min-width: 800px;
+    min-height: 420px;
+    top: 60px;
+    margin: 0 auto;
+    padding: 30px 30px 60px 30px;
+    font-size: 20px;
+    color: #2f2f2f;
+    border-color: orange;
+    border-radius: 60px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.app-body h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.app-body span {
+    font-size: 22px;
+    display: block;
+    position: relative;
+    margin: 6px 0px;
+}
+
+.app-footer {
+    position: relative;
+    width: 100%;
+    min-width: 800px;
+    display: block;
+    left: 0;
+    top: 80px;
+    height: 80px;
+    background-color: #2f2f2f;
+    margin: 0;
+    padding: 40px 0;
+    font-size: 18px;
+}
+
+.app-footer span {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    color: #dfdfdf;
+    text-align: center;
+}
+
+
+
+.animate-img {
+    margin: 15px 10px 50px 5px;
+    display: block;
+    position: relative;
+    width: 90%; 
+    min-width: 600px; 
+    height: auto;
+    box-shadow: 3px 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #494949;
+    border-radius: 6px;
+}
+
+.post-item {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.page-item {
+    position: relative;
+    left: 25px;
+    color: #2f2f2f;
+}
